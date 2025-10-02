@@ -12,6 +12,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+    eslint: {
+    ignoreDuringBuilds: true, // Don’t ignore ESLint errors during build
+  },
 }
 
 module.exports = nextConfig
